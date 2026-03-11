@@ -1,0 +1,27 @@
+{
+  "name": "Anshu krishna",
+  "location": "India",
+  "education": "BCA student",
+  "focus": ["Machine Learning", "Backend", "Robotics", "ML Ops"],
+  "hobbies": ["Bike rides","Gaming", "Reading", "Reseaching new topics"],
+  "projects": [
+    {
+      "name": "Portfolio Website",
+      "description": "This site itself — built to feel like a real terminal",
+      "tech": ["React", "TypeScript", "Tailwind CSS"],
+      "url": "https://github.com/anshu-48/Portfolio_Website"
+    },
+    {
+      "name": "E-commerce Cart",
+      "description": "A simple cart system for managing orders and items",
+      "tech": ["Python"],
+      "url": "https://github.com/anshu-48/ecommerce-cart-python"
+    }
+    
+  ],
+  "contact": {
+    "github": "https://github.com/anshu-48",
+    "linkedin": "https://www.linkedin.com/in/anshu-krishna-1a0210328/",
+    "email": "anshuthakur2602@gmail.com"
+  }
+}
