@@ -20,8 +20,7 @@ const ASCII_ART = `
 const BANNER_INFO = `
 Welcome to Anshu's Portfolio Terminal
 
-BTech Student • India • Learning ML & Robotics
-Aiming for ML Ops 
+BTech Student • India • Learning ML & Aiming for ML Ops 
 
 Type 'help' to get started
 Portfolio v2.0.1 - Built with React & TypeScript
@@ -88,7 +87,7 @@ const COMMANDS = {
         <p className="ml-4">
           <span className="terminal-blue">→</span>{" "}
           <a
-            href="https://github.com/anshu-48/Portfolio_Website"
+            href="https://github.com/AnshuYadav932005/portfolio"
             className="underline text-blue-400 hover:text-blue-300"
             target="_blank"
             rel="noopener noreferrer"
@@ -101,16 +100,16 @@ const COMMANDS = {
       {/* E-commerce Cart */}
       <div className="mb-4">
         <h3 className="terminal-warning font-bold">
-          • E-commerce Cart (Completed)
+          • Authentication (Completed)
         </h3>
         <p className="ml-4">
-          A simple cart system for managing orders and items
+          A sophisticated system for user authentication
         </p>
         <p className="ml-4 text-sm terminal-gray">Tech: Python (CLI-based)</p>
         <p className="ml-4">
           <span className="terminal-blue">→</span>{" "}
           <a
-            href="https://github.com/anshu-48/ecommerce-cart-python"
+            href="https://github.com/AnshuYadav932005/authentication"
             className="underline text-blue-400 hover:text-blue-300"
             target="_blank"
             rel="noopener noreferrer"
@@ -265,34 +264,34 @@ const COMMANDS = {
         <div>
           <span className="terminal-warning">GitHub:</span>
           <a
-            href="https://github.com/anshu-48"
+            href="https://github.com/AnshuYadav932005"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-2 terminal-blue hover:underline"
           >
-            github.com/anshu-48
+            github.com/anshu_yadav
           </a>
         </div>
 
         <div>
           <span className="terminal-warning">LinkedIn:</span>
           <a
-            href="https://www.linkedin.com/in/anshu-krishna-1a0210328/"
+            href="https://www.linkedin.com/in/anshu-yadav-770321381/"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-2 terminal-blue hover:underline"
           >
-            linkedin.com/in/anshu-krishna
+            linkedin.com/in/anshu_yadav
           </a>
         </div>
 
         <div>
           <span className="terminal-warning">Email:</span>
           <a
-            href="mailto:anshuthakur2602@gmail.com"
+            href="anshu.work932005@gmail.com"
             className="ml-2 terminal-blue hover:underline"
           >
-            anshuthakur2602@gmail.com
+            anshu.work932005@gmail.com
           </a>
         </div>
 
