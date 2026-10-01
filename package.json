@@ -10,9 +10,7 @@
     "build:prod": "vite build --mode production",
     "preview": "vite preview",
     "lint": "eslint .",
-    "deploy:vercel": "vercel --prod",
-    "predeploy": "vite build --mode gh-pages && node -e \"require('fs').copyFileSync('dist/index.html','dist/404.html')\"",
-    "deploy": "gh-pages -d dist"
+    "deploy:vercel": "vercel --prod"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
@@ -77,7 +75,6 @@
     "eslint": "^9.9.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
-    "gh-pages": "^6.3.0",
     "globals": "^15.9.0",
     "javascript-obfuscator": "^4.1.1",
     "postcss": "^8.4.47",
