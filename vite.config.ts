@@ -14,8 +14,8 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  // Vercel deployment - no base path needed
-  base: "/",
+  // GitHub Pages serves from /portfolio/, Vercel from the root
+  base: mode === "gh-pages" ? "/portfolio/" : "/",
   build: {
     // Simplified build configuration
     minify: "terser",

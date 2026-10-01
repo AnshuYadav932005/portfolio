@@ -421,7 +421,7 @@ const COMMANDS = {
       </p>
       <p
         className="terminal-blue cursor-pointer hover:underline"
-        onClick={() => window.open("/resumebetterquality.pdf", "_blank")}
+        onClick={() => window.open(`${import.meta.env.BASE_URL}resumebetterquality.pdf`, "_blank")}
       >
         → Click here to download resume.pdf
       </p>
